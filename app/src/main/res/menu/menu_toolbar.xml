@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="Tìm kiếm"
+        android:id="@+id/menu_toolbar_tim_kiem"
+        android:icon="@drawable/ic_baseline_search_24"
+        app:showAsAction="ifRoom"
+        />
+    <item
+        android:title="Thêm sản phẩm"
+        android:id="@+id/menu_toolbar_tuy_chon"
+        app:showAsAction="never"
+        />
+</menu>
